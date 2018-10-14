@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'import_export',
     'django.contrib.staticfiles',
 ]
 
@@ -78,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'todolist',
         'USER': 'root',
-        'PASSWORD' : '',
+        'PASSWORD' : 'root',
         'HOST': 'localhost',
         'PORT' : '3306 '
     }
