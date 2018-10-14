@@ -8,7 +8,6 @@ from django.views.decorators.http import last_modified
 class ToDo(models.Model):
     title = models.CharField(max_length=200)
     Description = models.TextField()
-    status = models.Value(fields)
     created_at = models.DateTimeField(default=datetime.time,blank = True)
     stat = (
             ('a','In progress'),
