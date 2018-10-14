@@ -1,0 +1,9 @@
+<ul>
+<header>
+	<h1>TODO list for Mani</h1>
+	<hr>
+</header>
+	{% for todo in todos %}
+		<li> <a href = "/todos/details/{{todo.id}}">{{todo.title}}</a> :{{todo.test}}</li>
+	{% endfor %}
+</ul>
